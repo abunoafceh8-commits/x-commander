@@ -1,20 +1,21 @@
 {
   "name": "x-commander",
-  "title": "X Commander — تحليل وأرشفة وبلاغات X.com",
-  "category": "أدوات X",
-  "description": "ابلاغات + استخراج تغريدات (نسخة 2).",
+  "title": "X Commander — إبلاغات تويتر + استخراج التغريدات 2",
+  "category": "أدوات X/Twitter",
+  "description": "تحليل وأرشفة وبلاغات X.com — استخراج التغريدات والإبلاغ.",
   "liveUrl": "https://x-commander-2x60.arcada.app/",
   "aliases": [],
-  "sourceLinks": [],
+  "sourceLinks": [
+    "https://www.designarena.ai/chat/254ae0bc-c416-4292-afd2-d33deb69c5fa"
+  ],
   "originalTitle": "X Commander — تحليل وأرشفة وبلاغات X.com",
-  "originalDescription": "ابلاغات + استخراج تغريدات (نسخة 2).",
+  "originalDescription": "",
   "type": "static-website",
   "archivedAt": "2026-10-15",
   "readyForHosting": true,
   "files": [
-    "assets/index-C0tKksV9.js",
-    "assets/index-CYvcAwbI.css",
     "favicon.svg",
-    "index.html"
+    "assets/index-C0tKksV9.js",
+    "assets/index-CYvcAwbI.css"
   ]
 }
