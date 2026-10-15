@@ -1,0 +1,20 @@
+{
+  "name": "x-commander",
+  "title": "X Commander — تحليل وأرشفة وبلاغات X.com",
+  "category": "أدوات X",
+  "description": "ابلاغات + استخراج تغريدات (نسخة 2).",
+  "liveUrl": "https://x-commander-2x60.arcada.app/",
+  "aliases": [],
+  "sourceLinks": [],
+  "originalTitle": "X Commander — تحليل وأرشفة وبلاغات X.com",
+  "originalDescription": "ابلاغات + استخراج تغريدات (نسخة 2).",
+  "type": "static-website",
+  "archivedAt": "2026-10-15",
+  "readyForHosting": true,
+  "files": [
+    "assets/index-C0tKksV9.js",
+    "assets/index-CYvcAwbI.css",
+    "favicon.svg",
+    "index.html"
+  ]
+}
