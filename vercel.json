@@ -1,4 +1,8 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/accounts", "destination": "/api/accounts" },    { "source": "/api/deep-scan", "destination": "/api/deep-scan" },    { "source": "/api/fetch-replies", "destination": "/api/fetch-replies" },    { "source": "/api/fetch-tweets", "destination": "/api/fetch-tweets" },    { "source": "/api/history", "destination": "/api/history" },    { "source": "/api/scan-hidden", "destination": "/api/scan-hidden" }
+  ]
 }
