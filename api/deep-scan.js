@@ -30,7 +30,7 @@ export default async function handler(req, res) {
   if (!username) return res.status(400).json({ error: 'Username required' });
   const cleanUser = username.replace('@', '').trim();
 
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', __origin(req)); res.setHeader('Vary', 'Origin');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') return res.status(200).end();
