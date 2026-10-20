@@ -1,0 +1,6 @@
+{
+  "name": "x-commander",
+  "private": true,
+  "type": "module",
+  "license": "MIT"
+}
