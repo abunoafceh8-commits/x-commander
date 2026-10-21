@@ -1,4 +1,5 @@
 /* AbuNawaf hardened — © 2026 أبو نواف · MIT */
+import { collect as __xCollect } from './_lib/xintel.js';
 const __RL = new Map();
 function __rate(req, res, max = 90, win = 60_000) {
   try {
@@ -115,7 +116,9 @@ export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', __origin(req)); res.setHeader('Vary', 'Origin');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    return res.json({ username: cleanUser, tweets: tweets.slice(0, 100), total: tweets.length });
+    const __intel = await __xCollect(cleanUser, tweets);
+    return res.json({ username: cleanUser, tweets: __intel.tweets.slice(0, 100), total: __intel.tweets.length,
+      profile: __intel.profile, sources: __intel.sources, note: __intel.note });
   } catch (e) {
     return res.status(500).json({ error: e.message, tweets: [], total: 0 });
   }
